@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62%;
+}
+
+:root{
+    background-color: rgb(36, 31, 31);
+}
+
+h1{
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem
+}
+
+h2{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+.container{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding:2rem;
+}
+
+.homepage{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.startbtn{
+    font-size: 30px ;
+    padding-left: 2rem ;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: rgb(18,92,255)100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
